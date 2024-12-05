@@ -1,0 +1,16 @@
+msg=msg_f+msg_gb
+.msg_f:
+Cr‚ation d'un data-disk.
+Nom du data-disk ?
+Quel est votre nom ?
+Drivers de souris incorrect:
+Fichier non trouv‚:
+Icone non trouv‚e:
+
+.msg_gb:
+Creating data-disk.
+Data-disk name ?
+What is your name ?
+Mouse driver bug:
+File not found:
+Icon not found:

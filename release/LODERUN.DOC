@@ -1,0 +1,115 @@
+                                  LODE RUNNER
+                             (c) Patrick Pr‚martin
+                               (c)  Olf Software
+
+     Tous les ans, le PŠre No‰l s'entraine dur avant d‚cembre. Ses lutins
+     pr‚parent les cadeaux tandis qu'il fait un peu d'exercice dans les
+     labyrinthes de l'Arctique. Mais il se fait vieux, et devra bient“t nommer
+     un successeur.
+
+     Vous faites partie des pr‚tendants au poste de PŠre No‰l pour la planŠte
+     Terre. A ce titre, vous devrez passer de nombreuses ‚preuves dont celle du
+     labyrinthe: des paquets cadeaux ont ‚t‚ dispers‚s dans des salles toutes
+     diff‚rentes. Votre mission sera de tous les ramasser avant de sortir par
+     l'‚chelle qui apparaŒtra … ce moment.
+
+     Le vainqueur de ces ‚preuves deviendra le nouveau PŠre No‰l jusqu'… ce
+     qu'il d‚cide de se retirer.
+
+********************************************************************************
+
+     Ce logiciel est la propri‚t‚ de Patrick Pr‚martin, son auteur. Il est
+distribu‚ par Olf Software en tant que logiciel SHAREWARE. Si vous l'utilisez,
+vous DEVEZ payer les 50 FF en ‚change desquels vous recevrez une licence
+d'utilisation.
+
+     Le programme et les fichiers de donn‚es qui l'accompagnent ont ‚t‚ r‚alis‚s
+… l'aide des nombreux utilitaires de Olf Software, ainsi que du compilateur
+Turbo Pascal de Borland.
+
+     L'argent que nous vous demandons en ‚change de la version complŠte (et de
+la licence d'utilisation) nous permettra de concevoir de nouveaux logiciels, et
+d'amortir le co–t de celui-ci. La meilleure fa‡on de nous remercier pour le
+travail que nous faisons (si vous l'apr‚ciez) est d'envoyer un chŠque de 50 FF
+libell‚ … l'ordre de Patrick Pr‚martin … l'adresse suivante:
+
+(maj du 05/12/2024 : adresse postale de l'epoque retiree du fichier, me contacter depuis https://developeur-pascal.fr ou https://olfsoftware.fr pour toute question)
+
+     En ‚change de ce rŠglement, vous recevrez une licence personnelle
+d'utilisation de ce jeu, ainsi que la derniŠre version (non limit‚e) du logiciel
+accompagn‚e du programme d'‚dition des data-disks. Veuillez imprimer et
+compl‚ter le fichier ASK_PGM.DOC accompagnant ce logiciel.
+
+********************************************************************************
+
+     Pour jouer, lancez le programme LODERUN.EXE … partir de l'invite du DOS.
+Divers paramŠtres peuvent ˆtre sp‚cifi‚s sur la ligne de commande:
+
+          /J : pour utiliser un Joystick (n'oubliez pas de la configurer …
+               l'aide de SETSTICK.EXE avant de jouer pour la premiŠre fois).
+
+     Pendant le jeu, vous pourrez utiliser les touches suivantes:
+
+          P : pour mettre le jeu en pause. Il suffit de r‚appuyer sur P pour
+              continuer la partie.
+          <ESC> : pour quitter le jeu aprŠs une confirmation.
+          <F2>  : pour sauvegarder la partie en cours.
+          <F3>  : pour restaurer une partir sauvegard‚e.
+
+     Les deux touches suivantes ne sont valables que sur les ordinateurs
+rapides:
+
+          <PgUp> : pour acc‚l‚rer le jeu.
+          <PgDn> : pour ralentir le jeu.
+
+********************************************************************************
+
+Configuration n‚cessaire:
+
+     Pour pouvoir utiliser ce jeu, vous devez avoir un PC muni d'une carte
+     graphique MCGA, VGA ou supŠrieure capable de passer en mode 320x200 avec
+     256 couleurs.
+
+     Si vous utilisez un Joystick, n'oubliez pas que vous devrez l'avoir
+     connect‚ avant et que vous devrez lancer le programme SETSTICK.EXE pour le
+     configurer. Le jeu ne pourra pas fonctionner si vous n'avez pas configur‚
+     le Joystick au pr‚alable.
+
+     Nous esp‚rons un jour g‚rer les cartes sonores, mais ce n'est pas encore le
+     cas … cause du prix assez ‚lev‚ de ces extensions (et aussi … leurs kits de
+     d‚veloppement).
+
+********************************************************************************
+
+     En plus du programme LODERUN.EXE, vous trouverez les programmes suivants:
+
+          - SETDFLT.EXE : permet de choisir la langue dans laquelle apparaŒtront
+                          les textes … l'‚cran. Si votre langue n'y est pas,
+                          veuillez nous le signaler (nous essaierons de trouver
+                          une bonne ƒme pour la traduction).
+          - SETSTICK.EXE : permet le calibrage des Joysticks. Il doit ˆtre lanc‚
+                           avant d'ex‚cuter le jeu.
+          - READ.EXE : il accompagne tous les logiciels Olf Software et permet
+                       de consulter n'importe quel fichier texte.
+
+     Si vous pouvez nous aider … traduire les textes de nos logiciels dans une
+ou plusieurs langue, n'h‚sitez pas … nous contacter.
+
+     Si vous distribuez des logiciels du domaine public, nous pouvons sur demande
+indiquer votre nom sur les pr‚sentations de nos softs (lorsqu'ils font partie de
+votre catalogue).
+
+     Quoiqu'il arrive, pour tout renseignement ou conseil, ‚crivez nous. La
+r‚ponse est assur‚e (mˆme si elle peut prendre du temps en fonction de la
+distribution du courrier).
+
+********************************************************************************
+
+     Des data-disks seront prochainement disponibles pour ce logiciel. Ils ne
+fonctionnent qu'avec une version enregistr‚e, vous devrez donc avoir la licence
+d'utilisation.
+
+     Chaque data-disk contient 16 nouveaux tableaux pour LODE RUNNER. Ils sont
+exclusivement distribu‚s en SHAREWARE par Olf Software au prix de 30 Francs
+Fran‡ais. Veuillez consulter le fichier ASK_PGM.DOC pour connaŒtre la liste des
+logiciels Olf Software disponibles.

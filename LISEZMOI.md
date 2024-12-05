@@ -1,39 +1,50 @@
-# Delphi-Projects-Template
+# Lode Runner - Turbo Pascal - MS-Dos - 1993
 
-[This page in english.](README.md)
+[This page in English.](README.md)
 
-Un modèle de dépôt git pour mes projets Delphi (ou autres).
+[Lode Runner](https://fr.wikipedia.org/wiki/Lode_Runner_(jeu_vidéo,_1983)) est un classique des jeux d'arcade : des plateformes et des échelles, un peronnage qui doit ramasser des choses et éviter d'autres personnages ou monstres. C'est la base de [Donkey Kong](https://fr.wikipedia.org/wiki/Donkey_Kong_(jeu_vidéo,_1981)) et de nombreux autres jeux depuis.
 
-Ce template est distribué sous licence MIT. La licence AGPL est pour les projets que je crée à partir de ce template de dépôt de code. Utilisez la licence que vous voulez si vous utilisez ce template.
+J'en avais commencé une version en mars 1993 mais en parcourrant les codes sources du projet j'ai réalisé qu'il n'a jamais été terminé. Il faudra que je vérifie si je retrouve une autre version dans mes archives pour la mettre en ligne et y joindre d'éventuelles notes écrites (dont les niveaux dessinés sur papier).
 
-Ce dépôt de code contient un projet développé en langage Pascal Objet sous Delphi. Vous ne savez pas ce qu'est Dephi ni où le télécharger ? Vous en saurez plus [sur ce site web](https://delphi-resources.developpeur-pascal.fr/).
+De nombreux formats de fichiers non standards étaient utilisés dans ce projet :
 
-## Installation
+* MOU pour le curseur de la souris
+* IDF pour mes bases de données
+* ICN pour des icônes
+* SPR pour les sprites et les spritesheets
+* MSG pour le stockage des textes du jeu en plusieurs langues
+* CFG pour la configuration du jeu et des contrôles
 
-Pour télécharger ce projet il est recommandé de passer par "git" mais vous pouvez aussi télécharger un ZIP directement depuis [son dépôt GitHub](https://github.com/DeveloppeurPascal/XXXXXXXXXX).
+Les éditeurs pour gérer tout ça seront publiés un jour. Les unités pour prendre en charge ces fichiers sont disponibles dans [mes librairies Turbo Pascal publiques](https://github.com/DeveloppeurPascal/librairies-TurboPascal).
 
-**Attention :** si le projet utilise des dépendances sous forme de sous modules ils seront absents du fichier ZIP. Vous devrez les télécharger à la main.
+Ce jeu a été développé en [Turbo Pascal](https://fr.wikipedia.org/wiki/Turbo_Pascal) pour fonctionner sous MS-Dos en mode MCGA ou VGA afin de bénéficier des nombreuses (256) couleurs disponibles pour l'époque.
 
-## Dépendances
+Il est possible que ce programme soit compilable avec [Free Pascal](https://www.freepascal.org) mais je n'ai pas essayé. Les unités non fournies se trouvent dans le dépôt [DeveloppeurPascal/librairies-TurboPascal](https://github.com/DeveloppeurPascal/librairies-TurboPascal). S'il en manque faites le moi savoir pour que je les y ajoute.
 
-Ce dépôt de code dépend des dépôts suivants :
+Vous trouverez les binaires (8 bits) et dépendances dans le dossier "release". C'est la version du 19 septembre 1993. Vous ne pourrez l'exécuter que sur un émulateur MS-Dos, Windows 3.x ou 95. Inutile d'essayer sur Windows au delà de ces versions.
 
-* project 1
-* project 2
+Découvrez [mes autres projets open source en Turbo Pascal](https://github.com/DeveloppeurPascal?tab=repositories&q=TurboPascal&type=&language=&sort=) si l'archéologie logicielle vous branche.
 
-## Comment demander une nouvelle fonctionnalité, signaler un bogue ou une faille de sécurité ?
+## Présentations et conférences
 
-Si vous voulez une réponse du propriétaire de ce dépôt la meilleure façon de procéder pour demander une nouvelle fonctionnalité ou signaler une anomalie est d'aller sur [le dépôt de code sur GitHub](https://github.com/DeveloppeurPascal/XXXXXXXXXX) et [d'ouvrir un ticket](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues).
+### Twitch
 
-Si vous avez trouvé une faille de sécurité n'en parlez pas en public avant qu'un correctif n'ait été déployé ou soit disponible. [Contactez l'auteur du dépôt en privé](https://developpeur-pascal.fr/nous-contacter.php) pour expliquer votre trouvaille.
+Suivez mes streams de développement de logiciels, jeux vidéo, applications mobiles et sites web sur [ma chaîne Twitch](https://www.twitch.tv/patrickpremartin) ou en rediffusion sur [Serial Streameur](https://serialstreameur.fr) la plupart du temps en français.
 
-Vous pouvez aussi cloner ce dépôt de code et participer à ses évolutions en soumettant vos modifications si vous le désirez. Lisez les explications dans le fichier [CONTRIBUTING.md](CONTRIBUTING.md).
+## Licence d'utilisation de ce dépôt de code et de son contenu
 
-## Modèle de licence double (seulement pour mes projets, pas pour ce modèle de dépôt de code)
+Ces codes sources sont distribués sous licence [AGPL 3.0 ou ultérieure](https://choosealicense.com/licenses/agpl-3.0/).
 
-Ce projet est distribué sous licence [AGPL 3.0 ou ultérieure] (https://choosealicense.com/licenses/agpl-3.0/).
+Vous êtes globalement libre d'utiliser le contenu de ce dépôt de code n'importe où à condition :
+* d'en faire mention dans vos projets
+* de diffuser les modifications apportées aux fichiers fournis dans ce projet sous licence AGPL (en y laissant les mentions de copyright d'origine (auteur, lien vers ce dépôt, licence) obligatoirement complétées par les vôtres)
+* de diffuser les codes sources de vos créations sous licence AGPL
 
-Si vous voulez l'utiliser en totalité ou en partie dans vos projets mais ne voulez pas en partager les sources ou ne voulez pas distribuer votre projet sous la même licence, vous pouvez acheter le droit de l'utiliser sous la licence [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/) ou une licence dédiée ([contactez l'auteur](https://developpeur-pascal.fr/nous-contacter.php) pour discuter de vos besoins).
+Si cette licence ne convient pas à vos besoins vous pouvez acheter un droit d'utilisation de ce projet sous la licence [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/) ou une licence commerciale dédiée ([contactez l'auteur](https://developpeur-pascal.fr/nous-contacter.php) pour discuter de vos besoins).
+
+Ces codes sources sont fournis en l'état sans garantie d'aucune sorte.
+
+Certains éléments inclus dans ce dépôt peuvent dépendre de droits d'utilisation de tiers (images, sons, ...). Ils ne sont pas réutilisables dans vos projets sauf mention contraire.
 
 ## Supportez ce projet et son auteur
 

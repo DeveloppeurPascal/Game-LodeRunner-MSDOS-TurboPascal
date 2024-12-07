@@ -19,7 +19,7 @@ The editors to manage all this will be published one day. The units to support t
 
 This game was developed in [Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal) to run under MS-Dos in MCGA or VGA mode to take advantage of the many (256) colors available at the time.
 
-It's possible that these programs is compilable with [Free Pascal](https://www.freepascal.org) but I haven't tried. Units not supplied can be found in the [DeveloppeurPascal/librairies-TurboPascal](https://github.com/DeveloppeurPascal/librairies-TurboPascal) repository. If any are missing, please let me know so that I can add them.
+It's possible that this program is compilable with [Free Pascal](https://www.freepascal.org) but I haven't tried. Units not supplied can be found in the [DeveloppeurPascal/librairies-TurboPascal](https://github.com/DeveloppeurPascal/librairies-TurboPascal) repository. If any are missing, please let me know so that I can add them.
 
 You'll find the binaries (8 bits) and dependencies in the “release” folder. This is the September 19, 1993 version. You can only run it on an MS-Dos emulator, Windows 3.x or 95. There's no point in trying it on Windows beyond these versions.
 
